@@ -130,3 +130,4 @@ criminal(X) :- americano(X), arma(Y), vende(X, Y, N), hostil(N).
 % ?- vende(west, M, N).              % M = m1, N = corea_del_sur
 % ?- hostil(corea_del_sur).          % true
 % ?- arma(m1).                       % true
+
